@@ -1,0 +1,10 @@
+# Core PySpark Data Processing Engine
+pyspark==3.5.4
+
+# API & Web Interface Frameworks
+fastapi
+uvicorn
+streamlit
+
+# Auxiliary ML Utilities
+scikit-learn

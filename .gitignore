@@ -1,0 +1,39 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Datasets & Large Data Files
+*.csv
+data/
+*.parquet
+*.snappy.parquet
+*.crc
+
+# ML & Spark Model Artifacts
+models/
+
+# Hadoop & Local Binaries
+hadoop/
+*.exe
+*.dll
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.log
+
